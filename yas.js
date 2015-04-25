@@ -19,3 +19,8 @@ function yas(condition) {
 function tast(Subject, testFn) {
   testFn(new Subject());
 }
+
+module.exports = {
+  yas: yas,
+  tast: tast
+};
